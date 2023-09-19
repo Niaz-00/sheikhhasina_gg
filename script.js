@@ -38,3 +38,16 @@ async function translateText(apiKey, text, targetLanguage) {
         return 'Translation failed';
     }
 }
+const movingText = document.getElementById("moving-text");
+
+// The text you want to display
+const textToDisplay = "জয় বাংলা, জয় বঙ্গবন্ধু";
+
+// Function to set the text in the moving text container
+function setText() {
+    movingText.textContent = textToDisplay;
+}
+
+// Call the function to set the initial text
+setText();
+
