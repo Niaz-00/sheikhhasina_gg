@@ -44,7 +44,7 @@ ol {
     left: 0;
     width: 100%;
     height: 30px; /* Adjust the height as needed */
-    background-color: #000; /* Background color of the moving text container */
+    background-color: #00FF00; /* Background color of the moving text container */
     color: #fff; /* Text color */
     overflow: hidden;
 }
